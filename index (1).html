@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ganesh Shukla - Portfolio Card</title>
+<style>
+  body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    font-family: "Poppins", sans-serif;
+  }
+  .card {
+    width: 380px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+    animation: fadeIn 0.7s ease-in-out;
+  }
+  .profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3b82f6;
+    margin-bottom: 15px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1e1e1e;
+  }
+  h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #6b7280;
+    font-weight: 500;
+  }
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #374151;
+    line-height: 1.6;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #3b82f6;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/130" alt="Ganesh Shukla" class="profile-img">
+    <h1>Ganesh Shukla</h1>
+    <h3>Creative Portfolio</h3>
+    <p>
+      Hello! I'm Ganesh Shukla — passionate about design, technology, and creative work.
+      This portfolio card highlights my personal brand and professional presence.
+    </p>
+    <a href="#" class="btn">View Full Portfolio</a>
+  </div>
+</body>
+</html>
